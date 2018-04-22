@@ -21,7 +21,7 @@ class HelloWorldTests(unittest.TestCase):
 
     def test_Hello_World(self):
         print("Testing Hello World")
-        target = "Rummenigge Pires"
+        target = "Hello World!"
         self.hello_world(target)
 
 
