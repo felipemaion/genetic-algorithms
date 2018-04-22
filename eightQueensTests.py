@@ -56,6 +56,8 @@ class EightQueensTests(unittest.TestCase):
 
     def test_benchmark(self):
         genetic.Benchmark.run(lambda: self.test(20))
+    def test_fiftyqueens(self):
+        self.test(50)
 
 
 class Board:
